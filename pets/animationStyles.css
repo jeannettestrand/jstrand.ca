@@ -1,0 +1,73 @@
+@keyframes animateBackground {
+	from {
+		position: 10% 20%
+	}
+	to {
+		position: 15% 25%
+	}
+}
+@keyframes growLink {
+	0% {
+		padding-top: 2em;
+	}
+	50% {
+		padding-top: 1.5em;
+	}
+	100% {
+		padding-top: 2em;
+	}
+}
+@keyframes down-bump {
+	0% {
+		padding-top: 2em;
+	}
+	50% {
+		padding-top: 2.5em;
+	}
+	100% {
+		padding-top: 2em;
+	}
+}
+@keyframes animatebottom {
+	from {
+		bottom: -300px;
+		opacity: 0
+	}
+	to {
+		bottom: 0;
+		opacity: 1
+	}
+}
+@keyframes animateBackground {
+	from {
+		background-position: 10% 20%
+	}
+	to {
+		background-position: 40% 70%
+	}
+}
+@keyframes colorFade {
+	0% {
+		color: #F6FBFC;
+	}
+	25% {
+		color: #9CDAE7;
+	}
+	50% {
+		color: #9FD5FE
+	}
+	75% {
+		color: #98F3D0
+	}
+	100% {
+		color: #98B4F3
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0
+	}
+	to {
+		opacity: 1
+	}
+}

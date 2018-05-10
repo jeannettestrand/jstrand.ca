@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="eng">
+<head>
+	<link rel="stylesheet" href="flashstyle.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jeannette Strand</title>
+	<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+</head>
+
+
+<body class="background">
+	<div id="header">
+         <div id="headerBanner">
+            <a href="home.html" id="headerHLLink">
+               <p id="headerHeadLine"><b>ICS Flash Cards</b></p>
+            </a>
+         </div>
+         <div id="headerMenu">
+            <div class="topNav" id="headerNav">
+				<button class="navButton" href="flashcards.html"><b>Database</b></button>
+				<button class="navButton" href=""><b>tba</b></button>
+				<button class="navButton" href=""><b>tba</b></button>
+				<button class="navButton" href=""><b>tba</b></button>
+            </div>
+         </div>
+    </div>
+	
+	<div class="strip">
+		<button class="navButton" onclick="bannerRotate(0, 0)">Normalization</button>
+		<button class="navButton" onclick="bannerRotate(0, 17)">DBMS</button>
+		<button class="navButton" onclick="bannerRotate(0, 26)">Relational Algebra</button>
+		<button class="navButton" onclick="bannerRotate(0, 34)">SQL & PL/SQL </button>
+		<button class="navButton" onclick="bannerRotate(0, 41)">Triggers</button>
+		<button class="navButton" onclick="bannerRotate(0, 50)">Oracle Architecture</button> 
+		<button class="navButton" onclick="bannerRotate(0, 77)">Planning</button> 
+     </div>
+	
+	<div class="buttonDiv">
+		<button class="button" onclick="bannerRotate(-1, -1)">&lsaquo;</button>	
+		<button class="button" onclick="bannerRotate(1, -1)">&rsaquo;</button>
+	</div>	
+	
+	<div class = "flipDiv">
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="front">
+					<div id="flashTextFront"><p id ="textFront" >ICS212 normalization</p></div>
+				</div>
+				<div class="back">
+					<div id="flashTextBack"> <p id ="textBack" > </p></div>
+				</div>					
+			</div>
+		</div>
+	</div>
+	
+
+	
+</body>	
+<script src="flashscript.js"> </script>
+

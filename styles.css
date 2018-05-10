@@ -1,0 +1,809 @@
+/* This is the Splash Page Styling  for index.html */
+
+#indexBackground {
+    background-image: url('Actiniaria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    height: 100%;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    margin: 0%;
+    z-index: -2;
+}
+.swimmingPool {
+    width: auto;
+    height: 100%;
+    margin: 0%;
+    position: relative;
+}
+#indexLabel {
+    background-color: rgba(246, 251, 252, 0.5);
+    z-index: 2;
+    max-width: 80%;
+    height: 250px;
+    margin: 0 !important;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 50%);
+    animation: fadeIn 3s;
+}
+#indexLogin {
+	position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 50%);
+    font-family: 'Poiret One', cursive;
+}
+.indexName {
+    font-family: 'Poiret One', cursive;
+    font-size: 180%;
+    color: white;
+    text-align: center;
+    animation: fadeIn 3s;
+    margin: 5% 10% 5% 10%;
+}
+.indexIntro {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #223A5E;
+    font-size: 120%;
+    margin: 5% 10% 10% 10%;
+    animation: fadeIn 4s;
+}
+.fish {
+    height: 8.5rem;
+    position: absolute;
+    z-index: 0;
+}
+#indexButton {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin: 20% auto;
+    background-color: rgba(23, 177, 175, .5);
+    border-style: solid;
+    border-width: 1%;
+    border-color: rgba(23, 177, 175, .5);
+    position: relative;
+    animation: fadeIn 3s;
+    font-family: 'Poiret One', cursive;
+    font-size: 120%;
+    color: white;
+    z-index: 2;
+
+}
+#indexButton:hover {
+    opacity: .5;
+}
+#indexButtonText {
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: auto;
+}
+#indexButtonText:hover {
+    color: black;
+}
+/***********************************************************************/
+
+.siteBackground {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(246, 251, 252, 1);
+    margin: 0 0 0 0!important;
+}
+#header {
+    width: 100%;
+    margin: 0;
+}
+#headerBanner {
+    width: 50%;
+    float: left;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    background: linear-gradient(rgba(23, 177, 175, .4), rgba(23, 177, 175, .1));
+}
+#headerHLLink {
+    width: 60% !important;
+    margin: 0 auto 0 auto!important;
+    float: none !important;
+}
+#headerHeadLine:hover {
+    color: #f5ab35;
+}
+#headerHeadLine {
+    font-family: 'Poiret One', cursive;
+    font-size: 200%;
+    color: #3A3A5E;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    animation: fadeIn 2s;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#headerMenu {
+    margin: 0 0 0 40%;
+    height: 50px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.topNav {
+    margin: 0 auto;
+    animation: fadeIn 3s;
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+a {
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    font-style: bold;
+    float: left;
+    font-size: 130%;
+    margin: 0 10px 0 0;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#activePageLink {
+    border-bottom: 2px solid;
+    border-bottom-color: #f5ab35;
+}
+.topNav a:link {
+    color: #1D1D2F;
+}
+#headerMenu a:hover {
+    color: #f5ab35;
+}
+.topNav a:active {
+    color: #1D1D2F;
+}
+.topNav a:visited {
+    color: #1D1D2F;
+}
+.topNav .icon {
+    display: none;
+}
+/***********************************************************************/
+
+footer {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+}
+#roundButton {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: rgba(144, 198, 149, .5);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(144, 198, 149, .5);
+    position: relative;
+    clear: both;
+    animation: fadeIn 3s;
+}
+#roundButton:hover {
+    opacity: .5;
+}
+#roundButtonText {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poiret One', cursive;
+    font-size: 120%;
+    color: white;
+    position: absolute;
+}
+#roundButtonText:hover {
+    color: black;
+}
+/***********************************************************************/
+
+.bannerCanvasHome {
+    height: 550px;
+    width: 100%;
+    background-image: url('water3.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+.bannerCanvasPortfolio {
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    background-image: url('water7.gif');
+}
+.bannerCanvasAbout {
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    background-image: url('water2.gif');
+}
+.bannerOpacity {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 0;
+}
+.bannerContentDiv {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+.bannerButtonL {
+    float: left;
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.bannerButtonR {
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+.button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 500%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.button:hover {
+    color: rgba(245, 171, 53, .7);
+}
+#bannerTextDivHome {
+    width: 70%;
+    margin: 0 auto;
+    float: center;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+}
+#bannerTextDivPortfolio {
+    width: 70%;
+    margin: 0 auto;
+    float: center;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+}
+}
+#bannerTextDivAbout {
+    width: 70%;
+    margin: 0 auto;
+    float: center;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+}
+#bannerTextHome {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    font-size: 200%;
+    padding: 2%;
+    margin: 2%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#bannerTextPortfolio {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    font-size: 200%;
+    padding: 2%;
+    margin: 2%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#bannerTextAbout {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    font-size: 200%;
+    padding: 2%;
+    margin: 2%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#bannerPic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    margin: 10% auto;
+    animation: fadeIn 4s;
+}
+/***********************************************************************/
+
+.quarterSectionCanvas {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    clear: both;
+    background-color: rgba(23, 177, 175, .1);
+}
+.arrowDown {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 2;
+	margin: 0;
+}
+.quarterSection {
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+.quarterStripe {
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.quarterStripeIcon {
+    width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quarterText {
+    font-family: 'Open Sans', sans-serif;
+    color: #1D1D2F;
+    font-size: 100%;
+    animation: fadeIn 3s;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#quarterTextTitle {
+    font-family: 'Poiret One', cursive;
+    color: #1D1D2F;
+    font-size: 140%;
+    animation: fadeIn 3s;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.quarterTextTitleHR {
+    width: 30%;
+    margin: 0 auto;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: .5px solid rgba(245, 171, 53, .6);
+}
+#quarterButton {
+    background: rgba(245, 171, 53, .2);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, .5);
+    border-style: solid;
+}
+#quarterButtonText {
+    font-family: 'Open Sans', sans-serif;
+    color: #1D1D2F;
+    opacity: .7;
+    font-size: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quarterButtonIcon{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quarterButton:hover {
+    opacity: .5;
+}
+#quarterButtonText:hover {
+    color: black;
+}
+/***********************************************************************/
+
+.halfSectionCanvas {
+    height: 250px;
+    width: 100%;
+    margin: 0;
+}
+.halfSection {
+    margin: 0 !important;
+    height: 250px;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.halfSectionBG {
+    margin: 0 !important;
+    height: 250px;
+    width: 50%;
+    float: left;
+    position: relative;
+    background-color: rgba(23, 177, 175, .1);
+}
+.halfSectionTitleGrid {
+    margin: 0 auto;
+    height: 250px;
+    width: 70%;
+    float: left;
+}
+.halfSectionTitleDiv {
+    width: 100%;
+    height: 30px;
+}
+#halfSectionTitle {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(245, 171, 53, 1);
+    font-size: 100%;
+    animation: fadeIn 3s;
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+}
+.halfSectionGrid {
+    width: 100%;
+    float: left;
+    height: 220px;
+}
+.halfSectionRow {
+    height: 55px;
+    margin: 6% auto;
+    width: 80%;
+}
+.halfSectionColumn {
+    height: 50px;
+    width: 33%;
+    position: relative;
+    float: left;
+}
+.halfSectionImage {
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.halfSectionctaDiv {
+    height: 250px;
+    width: 20%;
+    position: relative;
+    float: left !important;
+    margin: 0 auto;
+}
+.halfSectionBraceDiv {
+    height: 250px;
+    width: 10%;
+    position: relative;
+    float: left !important;
+    margin: 0 auto;
+    background-image: url('curley-brackets-right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+}
+#ctaButton {
+    background-color: rgba(245, 171, 53, .4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    margin: 2% auto;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+#ctaButtonText {
+    font-family: 'Open Sans', sans-serif;
+    color: #1D1D2F;
+    font-size: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#ctaButton:hover {
+    opacity: .5;
+}
+#ctaButtonText:hover {
+    color: black;
+}
+.halfSectionText {
+    font-family: 'Open Sans', sans-serif;
+    color: #1D1D2F;
+    font-size: 100%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    margin: 0 auto;
+}
+.halfSectionList {
+    font-family: 'Open Sans', sans-serif;
+    color: #1D1D2F;
+    font-size: 100%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: 0 auto;
+}
+li {
+    margin: 2%;
+}
+.halfSectionBigTitle {
+    font-family: 'Poiret One', cursive;
+    color: #3A3A5E;
+    font-size: 200%;
+    animation: fadeIn 3s;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.halfSectionIconRow {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.halfSectionIconColumn {
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+.halfSectionIcon {
+    width: 25%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/************************************************************************/
+
+.strip {
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(rgba(23, 177, 175, .4), rgba(23, 177, 175, .1));
+    clear: both;
+}
+.stripBackground {
+    height: 90px;
+    width: 100%;
+    margin: 0;
+}
+.stripBox {
+    width: 50%;
+    float: left;
+    height: 70px;
+    margin: 0;
+    position: relative;
+}
+.stripText {
+    font-family: 'Poiret One', cursive;
+    font-size: 200%;
+    color: #1D1D2F;
+    margin: 0;
+    letter-spacing: 2px;
+    animation: fadeIn 2s;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#stripctaButton {
+    background-color: rgba(245, 171, 53, .4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: rgba(245, 171, 53, .4);
+    border-style: solid;
+}
+#stripctaButtonText {
+    font-family: 'Open Sans', sans-serif;
+    color: #1D1D2F;
+    font-size: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#stripctaButton:hover {
+    opacity: .5;
+}
+#stripctaButtonText:hover {
+    color: black;
+}
+/***********************************************************************/
+
+.featureTextCanvas {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+}
+/*following is code to flip the 'cards' */
+/* entire container, keeps perspective */
+/**************************************About Page Styling****************************************/
+
+.aboutTitles {
+    font-family: 'Poiret One', cursive;
+    font-size: 200%;
+    text-align: center;
+    color: #223A5E;
+    margin: 0;
+}
+.aboutInfo {
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    text-align: center;
+    color: #223A5E;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    color: #f06d06;
+    text-decoration: none;
+}
+.aboutGrid {
+    max-width: 80%;
+    margin: 3% auto 15% auto;
+    height: 900px;
+    background-image: url('indexLink.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxFull {
+    padding: 2em;
+    border: 1px solid #9C9A40;
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin: -1px 0 0 -1px;
+    color: black;
+    background: linear-gradient( transparent, transparent 50%, rgba(34, 58, 94, 0.8) 50%, rgba(34, 58, 94, 0.8));
+    background-size: 100% 202%;
+    transition: all 0.5s ease;
+    animation: down-bump 1s ease;
+}
+.boxFull:hover {
+    background-position: 100% 100%;
+    animation: up-bump .4s ease;
+}
+.boxFull:hover h2 {
+    color: #48ad26;
+}
+.boxFull:hover h2 span {
+    color: white;
+}
+.boxFull:hover h3 {
+    color: #999;
+}
+/**************************************Contact Styling***************************/
+
+.contactPic {
+    width: 25%;
+    float: right;
+}
+/**************************************KeyFrames Styling***************************/

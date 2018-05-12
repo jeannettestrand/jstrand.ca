@@ -30,20 +30,18 @@ function mobileNavToggle() {
 //bannerRotate displays sentences for the banner element
 function bannerRotate(increment, sourcePage) {
 	if (sourcePage == 'Home'){
-		var bannerSentences = ["Hi, I'm Jeannette,", 
-			"I'm an applications developer, driven by an insatiable curiosity to learn everying.", 
-			"Right now I am studying Information and Computer Systems at Camosun College",
-			"I have a background in visual arts and design, and have a Bachelor of Fine Arts degree from UVIC.",
-			"I am driven to create smart, elegant, and robust solutions that will improve the way systems communicate"]; 
+		var bannerSentences = [
+			"Jeannette is a confident full-stack developer with a creative background and solid technical skills.",
+			"She has a Bachelor of Fine Arts degree from University of Victoria...",
+			"and an Associate degree in Information & Computer Systems from Camosun College.",
+			"She is driven to create smart, elegant, and robust solutions and engaging user interface designs"]; 
 		var picture = "homePic.jpg";
 	} else if (sourcePage == 'Portfolio'){
-		var bannerSentences = ["Check out my projects...", 
-			"These projects are programming assignments from my first year of ICS studies which I have augmented further", 
-			"Enjoy, and please let me know what you think! "]; 
+		var bannerSentences = ["Check out some of Jeannette's projects, ranging from web development, algorithm challenges, to open-source database systems."] 
 	} else if( sourcePage=='About'){
-		var bannerSentences = ["Want to know more? Check out my resume, and click through for more info...", 
-			"In my bachelor's degree, I studied visual communication, fine art, and design. I love to create stylish, intuitive, and engaging user experiences.",
-			"I got into computer studies through educating folks to use financial institution software. I found the complex program and processes fascinating, and knew I wanted to build amazing software systems.", 
+		var bannerSentences = ["Jeannette has a wide range of professional experience, and solid technical skills.",
+			"She is experienced with object-oriented programming, algorithms and data structures, code optimization, testing, and documentation.", 
+			 "Her solid technical capabilities, creative background, and highly-developed communication skills make her a valuable asset to your organization."
 			]; 
 	} else { return; }
 		
@@ -54,33 +52,8 @@ function bannerRotate(increment, sourcePage) {
 	var currentSentence =  document.getElementById(elemID);
 	var sentence = currentSentence.innerHTML;
 	var incrementedIndex = bannerSentences.indexOf(sentence);
-	incrementedIndex += increment;
-	
-	
-	if (incrementedIndex > bannerSentences.length-1){
-		incrementedIndex = 0;
-	}
-	if ( incrementedIndex < 0 ){
-		incrementedIndex = bannerSentences.length-1;
-	}
-	if( incrementedIndex == 0 ){
-		if (picture != null){
-		var pic = document.createElement("IMG");
-		pic.src = picture;
-		pic.id = "bannerPic";
-		parent.appendChild(pic);
-		currentSentence.style.top = "20%";
-		} 
-	}
-	if	((incrementedIndex == 1) || (incrementedIndex==bannerSentences.length-1) ){
-		var pic = document.getElementById("bannerPic");
-		if (pic != null){
-			parent.removeChild(pic);
-		}
-	}
-	if (incrementedIndex != 0 ){
-		currentSentence.style.top = "50%";
-	}
+	incrementedIndex = (incrementedIndex + increment) % bannerSentences.length;
+
 	currentSentence.innerHTML = bannerSentences[incrementedIndex];
 }
 

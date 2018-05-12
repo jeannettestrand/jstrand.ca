@@ -19,85 +19,73 @@
     margin: 0%;
     position: relative;
 }
-#indexLabel {
-    background-color: rgba(246, 251, 252, 0.5);
-    z-index: 2;
-    max-width: 80%;
-    height: 250px;
-    margin: 0 !important;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 50%);
-    animation: fadeIn 3s;
-}
-#indexLogin {
-	position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 50%);
-    font-family: 'Poiret One', cursive;
-}
-.indexName {
-    font-family: 'Poiret One', cursive;
-    font-size: 180%;
-    color: white;
-    text-align: center;
-    animation: fadeIn 3s;
-    margin: 5% 10% 5% 10%;
-}
-.indexIntro {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: #223A5E;
-    font-size: 120%;
-    margin: 5% 10% 10% 10%;
-    animation: fadeIn 4s;
-}
 .fish {
-    height: 8.5rem;
+    height: 10rem;
     position: absolute;
     z-index: 0;
 }
+#indexButtonBox{
+	height: 400px;
+	width: 500px;
+    background-color: rgba(255, 255, 255, .5);	
+    animation: fadeIn 3s;
+	/* margin: 10% auto; */
+	 top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
 #indexButton {
-    border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    margin: 20% auto;
-    background-color: rgba(23, 177, 175, .5);
-    border-style: solid;
-    border-width: 1%;
-    border-color: rgba(23, 177, 175, .5);
+    height: 80px;
+    width: 230px;
+    background-color: rgba(255, 255, 255, .5);
     position: relative;
     animation: fadeIn 3s;
-    font-family: 'Poiret One', cursive;
-    font-size: 120%;
-    color: white;
-    z-index: 2;
-
+    z-index: 0;
+	margin: 35px auto;
 }
 #indexButton:hover {
     opacity: .5;
 }
+#indexButtonHeader{
+    height: 90px;
+    width: auto;
+    background-color: rgba(255, 255, 255, .5);
+    position: relative;
+    animation: fadeIn 3s;
+    z-index: 2;	
+	margin: 0 auto;
+}
 #indexButtonText {
+     top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #404040 !important;
+    width: auto;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 150%;
+	
+}
+#indexButtonTextHeader{
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    color: #404040 !important;
     width: auto;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 180%;
 }
+
 #indexButtonText:hover {
     color: black;
 }
 /***********************************************************************/
 
-.siteBackground {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(246, 251, 252, 1);
-    margin: 0 0 0 0!important;
-}
 #header {
     width: 100%;
     margin: 0;
@@ -105,10 +93,10 @@
 #headerBanner {
     width: 50%;
     float: left;
-    height: 50px;
+    height: 90px;
     margin: 0;
     position: relative;
-    background: linear-gradient(rgba(23, 177, 175, .4), rgba(23, 177, 175, .1));
+    background-color: rgba(174, 200, 217, .6); 
 }
 #headerHLLink {
     width: 60% !important;
@@ -119,9 +107,9 @@
     color: #f5ab35;
 }
 #headerHeadLine {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 200%;
-    color: #3A3A5E;
+    color: black;
     text-align: center;
     margin: 0;
     letter-spacing: 2px;
@@ -134,7 +122,7 @@
 }
 #headerMenu {
     margin: 0 0 0 40%;
-    height: 50px;
+    height: 90px;
     padding: 0;
     overflow: hidden;
     position: relative;
@@ -149,11 +137,11 @@
     transform: translate(0%, -50%);
 }
 a {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     font-style: bold;
     float: left;
-    font-size: 130%;
+    font-size: 150%;
     margin: 0 10px 0 0;
     letter-spacing: 2px;
     text-align: center;
@@ -164,16 +152,16 @@ a {
     border-bottom-color: #f5ab35;
 }
 .topNav a:link {
-    color: #1D1D2F;
+    color: #404040;
 }
 #headerMenu a:hover {
     color: #f5ab35;
 }
 .topNav a:active {
-    color: #1D1D2F;
+    color: #404040;
 }
 .topNav a:visited {
-    color: #1D1D2F;
+    color: #404040;
 }
 .topNav .icon {
     display: none;
@@ -199,13 +187,13 @@ footer {
     animation: fadeIn 3s;
 }
 #roundButton:hover {
-    opacity: .5;
+    opacity: .8;
 }
 #roundButtonText {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 120%;
     color: white;
     position: absolute;
@@ -218,7 +206,7 @@ footer {
 .bannerCanvasHome {
     height: 550px;
     width: 100%;
-    background-image: url('water3.gif');
+    background-image: url('water13.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -232,6 +220,15 @@ footer {
     background-position: center;
     margin: 0;
     background-image: url('water7.gif');
+}
+.bannerCanvasContact {
+	height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    background-image: url('water9.gif');
 }
 .bannerCanvasAbout {
     height: 550px;
@@ -249,7 +246,7 @@ footer {
     margin: 0;
 }
 .bannerContentDiv {
-    width: 60%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     float: left;
@@ -272,16 +269,13 @@ footer {
 .button {
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-size: 500%;
+    font-size: 600%;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: fadeIn;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 .button:hover {
     color: rgba(245, 171, 53, .7);
@@ -308,7 +302,7 @@ footer {
     transform: translate(-50%, -50%);
     height: 250px;
 }
-}
+
 #bannerTextDivAbout {
     width: 70%;
     margin: 0 auto;
@@ -322,23 +316,37 @@ footer {
 }
 #bannerTextHome {
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     color: #ffffff;
-    font-size: 200%;
+    font-size: 300%;
     padding: 2%;
     margin: 2%;
     animation: fadeIn 3s;
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
 #bannerTextPortfolio {
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     color: #ffffff;
-    font-size: 200%;
+    font-size: 300%;
+    padding: 2%;
+    margin: 2%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#bannerTextContact {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #ffffff;
+    font-size: 300%;
     padding: 2%;
     margin: 2%;
     animation: fadeIn 3s;
@@ -350,9 +358,9 @@ footer {
 }
 #bannerTextAbout {
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     color: #ffffff;
-    font-size: 200%;
+    font-size: 300%;
     padding: 2%;
     margin: 2%;
     animation: fadeIn 3s;
@@ -392,17 +400,13 @@ footer {
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid white;
+    border-top: 20px solid rgba(255,255,255,.5);
     position: absolute;
     top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: fadeIn;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    z-index: 2;
-	margin: 0;
+    
 }
 .quarterSection {
     width: 25%;
@@ -425,13 +429,13 @@ footer {
     transform: translate(-50%, -50%);
 }
 #quarterText {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #1D1D2F;
     font-size: 100%;
     animation: fadeIn 3s;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -439,44 +443,35 @@ footer {
     text-align: center;
 }
 #quarterTextTitle {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     color: #1D1D2F;
     font-size: 140%;
     animation: fadeIn 3s;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
     margin: 0 auto;
     text-align: center;
 }
-.quarterTextTitleHR {
-    width: 30%;
-    margin: 0 auto;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: .5px solid rgba(245, 171, 53, .6);
-}
+
 #quarterButton {
-    background: rgba(245, 171, 53, .2);
+    background: rgba(255,255,255);
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 65px;
-    height: 65px;
-    border-radius: 50%;
+    height: 50px;
     border-width: 1px;
     border-color: rgba(255, 255, 255, .5);
     border-style: solid;
 }
 #quarterButtonText {
-    font-family: 'Open Sans', sans-serif;
-    color: #1D1D2F;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
     opacity: .7;
     font-size: 90%;
     position: relative;
@@ -491,7 +486,7 @@ footer {
     transform: translate(-50%, -50%);
 }
 #quarterButton:hover {
-    opacity: .5;
+    opacity: .7;
 }
 #quarterButtonText:hover {
     color: black;
@@ -529,8 +524,8 @@ footer {
     height: 30px;
 }
 #halfSectionTitle {
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(245, 171, 53, 1);
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
     font-size: 100%;
     animation: fadeIn 3s;
     width: 80%;
@@ -581,22 +576,21 @@ footer {
     opacity: .5;
 }
 #ctaButton {
-    background-color: rgba(245, 171, 53, .4);
+    background-color: rgba(23, 177, 175, .1);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 50px;
     margin: 2% auto;
-    border-radius: 50%;
     border-width: 1px;
     border-color: white;
     border-style: solid;
 }
 #ctaButtonText {
-    font-family: 'Open Sans', sans-serif;
-    color: #1D1D2F;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
     font-size: 90%;
     position: relative;
     top: 50%;
@@ -604,13 +598,13 @@ footer {
     transform: translate(-50%, -50%);
 }
 #ctaButton:hover {
-    opacity: .5;
+    opacity: .7;
 }
 #ctaButtonText:hover {
     color: black;
 }
 .halfSectionText {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #1D1D2F;
     font-size: 100%;
     animation: fadeIn 3s;
@@ -622,22 +616,22 @@ footer {
     margin: 0 auto;
 }
 .halfSectionList {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #1D1D2F;
-    font-size: 100%;
+    font-size: 120%;
     animation: fadeIn 3s;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 li {
     margin: 2%;
 }
 .halfSectionBigTitle {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     color: #3A3A5E;
     font-size: 200%;
     animation: fadeIn 3s;
@@ -676,7 +670,7 @@ li {
     height: 70px;
     width: 100%;
     margin: 0;
-    background: linear-gradient(rgba(23, 177, 175, .4), rgba(23, 177, 175, .1));
+    background-color: rgba(174, 200, 217, .7);
     clear: both;
 }
 .stripBackground {
@@ -692,9 +686,9 @@ li {
     position: relative;
 }
 .stripText {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 200%;
-    color: #1D1D2F;
+    color: black;
     margin: 0;
     letter-spacing: 2px;
     animation: fadeIn 2s;
@@ -706,22 +700,21 @@ li {
     transform: translate(-50%, -50%);
 }
 #stripctaButton {
-    background-color: rgba(245, 171, 53, .4);
+    background-color: rgba(255, 255, 255, 1);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 50px;
     margin: 0 auto;
-    border-radius: 50%;
     border-width: 1px;
-    border-color: rgba(245, 171, 53, .4);
+    border-color: white;
     border-style: solid;
 }
 #stripctaButtonText {
-    font-family: 'Open Sans', sans-serif;
-    color: #1D1D2F;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
     font-size: 80%;
     position: relative;
     top: 50%;
@@ -729,7 +722,7 @@ li {
     transform: translate(-50%, -50%);
 }
 #stripctaButton:hover {
-    opacity: .5;
+    opacity: .8;
 }
 #stripctaButtonText:hover {
     color: black;
@@ -746,14 +739,14 @@ li {
 /**************************************About Page Styling****************************************/
 
 .aboutTitles {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 200%;
     text-align: center;
     color: #223A5E;
     margin: 0;
 }
 .aboutInfo {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 100%;
     text-align: center;
     color: #223A5E;

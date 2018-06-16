@@ -1,0 +1,705 @@
+/* This is the Splash Page Styling  for index.html */
+
+.swimmingPool {
+    width: auto;
+    height: 100%;
+    margin: 0%;
+    position: relative;
+}
+.fish {
+    height: 10rem;
+    position: absolute;
+    z-index: 0;
+}
+#indexButtonBox{
+	height: 400px;
+	width: 500px;
+    background-color: rgba(255, 255, 255, .5);	
+    animation: fadeIn 3s;
+	/* margin: 10% auto; */
+	 top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+#indexButton {
+    height: 80px;
+    width: 230px;
+    background-color: rgba(255, 255, 255, .5);
+    position: relative;
+    animation: fadeIn 3s;
+    z-index: 0;
+	margin: 35px auto;
+}
+#indexButton:hover {
+    opacity: .5;
+}
+#indexButtonHeader{
+    height: 90px;
+    width: auto;
+    background-color: rgba(255, 255, 255, .5);
+    position: relative;
+    animation: fadeIn 3s;
+    z-index: 2;	
+	margin: 0 auto;
+}
+#indexButtonText {
+     top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #404040 !important;
+    width: auto;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 150%;
+	
+}
+#indexButtonTextHeader{
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #404040 !important;
+    width: auto;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 180%;
+}
+
+#indexButtonText:hover {
+    color: black;
+}
+/***********************************************************************/
+
+#header {
+    width: 100%;
+    margin: 0;
+}
+#headerBanner {
+    width: 50%;
+    float: left;
+    height: 95px;
+    margin: 0;
+    position: relative;
+    background-color: rgba(174, 200, 217, .6); 
+}
+#headerHLLink {
+    width: 60% !important;
+    margin: 0 auto 0 auto!important;
+    float: none !important;
+}
+#headerHeadLine:hover {
+    color: #f5ab35;
+}
+#headerHeadLine {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    animation: fadeIn 2s;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#headerMenu {
+    height: 95px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.topNav {
+    margin: 3% auto;
+    animation: fadeIn 3s;
+    float: right;
+	width: 75%;
+}
+a {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    float: left;
+    font-size: 150%;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#activePageLink {
+    border-bottom: 2px solid;
+    border-bottom-color: #f5ab35;
+}
+.topNav a:link {
+    color: #404040;
+}
+#headerMenu a:hover {
+    color: #f5ab35;
+}
+.topNav a:active {
+    color: #404040;
+}
+.topNav a:visited {
+    color: #404040;
+}
+.topNav .icon {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+	z-index: 3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	font-size: 120%;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/***********************************************************************/
+
+footer {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+}
+#roundButton {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: rgba(144, 198, 149, .5);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(144, 198, 149, .5);
+    position: relative;
+    clear: both;
+    animation: fadeIn 3s;
+}
+#roundButton:hover {
+    opacity: .8;
+}
+#roundButtonText {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 120%;
+    color: white;
+    position: absolute;
+}
+#roundButtonText:hover {
+    color: black;
+}
+/***********************************************************************/
+
+.bannerCanvas {
+    height: 550px;
+    width: 100%;
+    background-image: url('land-and-structures/There but not.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+	z-index: 0;
+}
+.bannerOpacity {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 0;
+	z-index: 0;
+
+}
+.bannerContentDiv {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+	z-index: 0;
+	}
+#bannerTextDiv {
+    width: 70%;
+    margin: 0 auto;
+    float: center;
+	z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+}
+#bannerText{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #3a4662 ;
+    font-size: 300%;
+    padding: 2%;
+    margin: 2%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+	z-index: 0;
+}
+/***********************************************************************/
+
+.quarterSectionCanvas {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    clear: both;
+    background-color: rgba(23, 177, 175, .1);
+}
+.arrowDown {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgba(255,255,255,.5);
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn;
+    
+}
+.quarterSection {
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+.quarterStripe {
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.quarterStripeIcon {
+    width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quarterText {
+    font-family: 'Roboto', sans-serif;
+    color: #1D1D2F;
+    font-size: 100%;
+    animation: fadeIn 3s;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#quarterTextTitle {
+    font-family: 'Fjalla One', sans-serif;
+    color: #1D1D2F;
+    font-size: 140%;
+    animation: fadeIn 3s;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#quarterButton {
+    background: rgba(255,255,255);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65px;
+    height: 50px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, .5);
+    border-style: solid;
+}
+#quarterButtonText {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    opacity: .7;
+    font-size: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quarterButtonIcon{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quarterButton:hover {
+    opacity: .7;
+}
+#quarterButtonText:hover {
+    color: black;
+}
+/***********************************************************************/
+
+.halfSectionCanvas {
+    height: 250px;
+    width: 100%;
+    margin: 0;
+}
+.halfSection {
+    margin: 0 !important;
+    height: 250px;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.halfSectionBG {
+    margin: 0 !important;
+    height: 250px;
+    width: 50%;
+    float: left;
+    position: relative;
+    background-color: rgba(23, 177, 175, .1);
+}
+.halfSectionTitleGrid {
+    margin: 0 auto;
+    height: 250px;
+    width: 70%;
+    float: left;
+}
+.halfSectionTitleDiv {
+    width: 100%;
+    height: 30px;
+}
+#halfSectionTitle {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 100%;
+    animation: fadeIn 3s;
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+}
+.halfSectionGrid {
+    width: 100%;
+    float: left;
+    height: 220px;
+}
+.halfSectionRow {
+    height: 55px;
+    margin: 6% auto;
+    width: 80%;
+}
+.halfSectionColumn {
+    height: 50px;
+    width: 33%;
+    position: relative;
+    float: left;
+}
+.halfSectionImage {
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.halfSectionctaDiv {
+    height: 250px;
+    width: 20%;
+    position: relative;
+    float: left !important;
+    margin: 0 auto;
+}
+.halfSectionBraceDiv {
+    height: 250px;
+    width: 10%;
+    position: relative;
+    float: left !important;
+    margin: 0 auto;
+    background-image: url('curley-brackets-right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+}
+#ctaButton {
+    background-color: rgba(23, 177, 175, .1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65px;
+    height: 50px;
+    margin: 2% auto;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+#ctaButtonText {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#ctaButton:hover {
+    opacity: .7;
+}
+#ctaButtonText:hover {
+    color: black;
+}
+.halfSectionText {
+    font-family: 'Roboto', sans-serif;
+    color: #1D1D2F;
+    font-size: 100%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    margin: 0 auto;
+}
+.halfSectionList {
+    font-family: 'Roboto', sans-serif;
+    color: #1D1D2F;
+    font-size: 120%;
+    animation: fadeIn 3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    margin: 0 auto;
+}
+li {
+    margin: 2%;
+}
+.halfSectionBigTitle {
+    font-family: 'Fjalla One', sans-serif;
+    color: #3A3A5E;
+    font-size: 200%;
+    animation: fadeIn 3s;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.halfSectionIconRow {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.halfSectionIconColumn {
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+.halfSectionIcon {
+    width: 25%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/************************************************************************/
+
+.strip {
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(174, 200, 217, .7);
+    clear: both;
+}
+.stripBackground {
+    height: 90px;
+    width: 100%;
+    margin: 0;
+}
+.stripBox {
+    width: 50%;
+    float: left;
+    height: 70px;
+    margin: 0;
+    position: relative;
+}
+.stripText {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 200%;
+    color: black;
+    margin: 0;
+    letter-spacing: 2px;
+    animation: fadeIn 2s;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#stripctaButton {
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65px;
+    height: 50px;
+    margin: 0 auto;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+#stripctaButtonText {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#stripctaButton:hover {
+    opacity: .8;
+}
+#stripctaButtonText:hover {
+    color: black;
+}
+/***********************************************************************/
+
+.featureTextCanvas {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+}
+/*following is code to flip the 'cards' */
+/* entire container, keeps perspective */
+/**************************************About Page Styling****************************************/
+
+.aboutTitles {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: #223A5E;
+    margin: 0;
+}
+.aboutInfo {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    color: #223A5E;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    color: #f06d06;
+    text-decoration: none;
+}
+.aboutGrid {
+    max-width: 80%;
+    margin: 3% auto 15% auto;
+    height: 900px;
+    background-image: url('indexLink.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxFull {
+    padding: 2em;
+    border: 1px solid #9C9A40;
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin: -1px 0 0 -1px;
+    color: black;
+    background: linear-gradient( transparent, transparent 50%, rgba(34, 58, 94, 0.8) 50%, rgba(34, 58, 94, 0.8));
+    background-size: 100% 202%;
+    transition: all 0.5s ease;
+    animation: down-bump 1s ease;
+}
+.boxFull:hover {
+    background-position: 100% 100%;
+    animation: up-bump .4s ease;
+}
+.boxFull:hover h2 {
+    color: #48ad26;
+}
+.boxFull:hover h2 span {
+    color: white;
+}
+.boxFull:hover h3 {
+    color: #999;
+}
+/**************************************Contact Styling***************************/
+
+.contactPic {
+    width: 25%;
+    float: right;
+}
+/**************************************KeyFrames Styling***************************/
